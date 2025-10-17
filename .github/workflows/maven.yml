@@ -30,7 +30,7 @@ jobs:
       - name: Run tests
         run: mvn test
 
-      - name: Submit Maven dependency snapshot
-        uses: advanced-security/maven-dependency-submission-action@v1
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+#      - name: Submit Maven dependency snapshot
+#        uses: advanced-security/maven-dependency-submission-action@v1
+#        with:
+#          github-token: ${{ secrets.GITHUB_TOKEN }}
